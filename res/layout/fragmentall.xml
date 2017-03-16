@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/radio_group"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/tab_bg"
+    android:orientation="horizontal" >
+
+    <RadioButton
+        android:id="@+id/homepage"
+        android:layout_width="0.0dip"
+        android:layout_height="match_parent"
+        android:layout_marginTop="3dp"
+        android:layout_weight="1"
+        android:background="@null"
+        android:button="@null"
+        android:checked="true"
+        android:drawableTop="@drawable/tab_choose1"
+        android:gravity="center"
+        android:padding="5.0dip"
+        android:text="@string/homepage"
+        android:textColor="@color/tabtext_choose"
+        android:textSize="@dimen/textsize12" />
+
+    <RadioButton
+        android:id="@+id/openclass"
+        android:layout_width="0.0dip"
+        android:layout_height="match_parent"
+        android:layout_marginTop="3dp"
+        android:layout_weight="1"
+        android:background="@null"
+        android:button="@null"
+        android:drawableTop="@drawable/tab_choose2"
+        android:gravity="center"
+        android:padding="5.0dip"
+        android:text="@string/open_class"
+        android:textColor="@color/tabtext_choose"
+        android:textSize="@dimen/textsize12" />
+
+    <RadioButton
+        android:id="@+id/classtrain"
+        android:layout_width="0.0dip"
+        android:layout_height="match_parent"
+        android:layout_marginTop="3dp"
+        android:layout_weight="1"
+        android:background="@null"
+        android:button="@null"
+        android:drawableTop="@drawable/tab_choose3"
+        android:gravity="center"
+        android:padding="5.0dip"
+        android:text="@string/class_train"
+        android:textColor="@color/tabtext_choose"
+        android:textSize="@dimen/textsize12" />
+
+    <RadioButton
+        android:id="@+id/my"
+        android:layout_width="0.0dip"
+        android:layout_height="match_parent"
+        android:layout_marginTop="3dp"
+        android:layout_weight="1"
+        android:background="@null"
+        android:button="@null"
+        android:drawableTop="@drawable/tab_choose4"
+        android:gravity="center"
+        android:padding="5.0dip"
+        android:text="@string/my"
+        android:textColor="@color/tabtext_choose"
+        android:textSize="@dimen/textsize12" />
+
+</RadioGroup>

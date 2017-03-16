@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="10dp"
+                android:background="@color/gray" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/myitem_selecter"
+                android:orientation="vertical" >
+
+                <TextView
+                    
+                    android:id="@+id/myopen"
+                    style="@style/setting_btn"
+                    android:drawableLeft="@drawable/my_icon1"
+                    android:drawableRight="@drawable/home_more"
+                    android:text="@string/myopen" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/line"
+                    android:drawablePadding="10.0dip" />
+
+                <TextView
+                    android:id="@+id/mytrain"
+                     style="@style/setting_btn"   
+                    android:drawableLeft="@drawable/my_icon2"      
+                    android:drawableRight="@drawable/home_more"         
+                    android:text="@string/mytrain"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="10dp"
+                android:background="@color/gray" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/myitem_selecter"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/mytest"
+                    style="@style/setting_btn"  
+                    android:drawableLeft="@drawable/my_icon3"
+                    android:drawableRight="@drawable/home_more"
+                    android:text="@string/mytest"/>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/line"
+                    android:drawablePadding="10.0dip" />
+
+                <TextView
+                    android:id="@+id/myorder"
+                    style="@style/setting_btn" 
+                    android:drawableLeft="@drawable/my_icon4"
+                    android:drawableRight="@drawable/home_more"
+                    android:text="@string/myorder"/>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/line"
+                    android:drawablePadding="10.0dip" />
+
+                <TextView
+                    android:id="@+id/mycollect"
+                    style="@style/setting_btn" 
+                    android:drawableLeft="@drawable/my_icon5"
+                    android:drawableRight="@drawable/home_more"
+                    android:text="@string/mycollect"/>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                   
+                    android:background="@color/line"
+                    android:drawablePadding="10.0dip" />
+
+                <TextView
+                    android:id="@+id/myinteract"
+                    style="@style/setting_btn"  
+                    android:drawableLeft="@drawable/my_icon6"
+                    android:drawableRight="@drawable/home_more"
+                    android:text="@string/myinteract"/>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/line"
+                    android:drawablePadding="10.0dip" />
+
+                <TextView
+                    android:id="@+id/mycertificate"
+                    style="@style/setting_btn"  
+                    android:drawableLeft="@drawable/my_icon7"
+                    android:drawableRight="@drawable/home_more"
+                    android:text="@string/mycertificate"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="10dp"
+                android:background="@color/gray" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/myitem_selecter"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/myset"
+                    style="@style/setting_btn" 
+                    android:drawableLeft="@drawable/my_icon8"
+                    android:drawableRight="@drawable/home_more"
+                    android:text="@string/myset" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="15dp"
+                android:background="@color/gray" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

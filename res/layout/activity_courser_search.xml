@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/searchedlist"  >
+  
+   <RelativeLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:paddingBottom="15dp"
+       android:paddingTop="20dp" >
+
+       <LinearLayout
+           android:id="@+id/lay001"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" 
+           android:layout_marginLeft="15dp"
+           android:layout_marginRight="15dp">
+
+           <ImageView
+               android:id="@+id/HotRank"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/search_hot" 
+               android:layout_gravity="center_vertical"/>
+
+           <TextView
+               android:id="@+id/textView1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="5dp"
+               android:layout_gravity="center_vertical" 
+               android:textSize="@dimen/textsize14"              
+               android:text="热门搜索" />
+
+       </LinearLayout>
+
+       <ListView
+           android:id="@+id/listRank"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/lay001"
+           android:paddingTop="10dp"
+           android:dividerHeight="5dp"
+           android:divider="@android:color/transparent" 
+           android:scrollbars="none">
+       </ListView>
+   </RelativeLayout>
+       
+</RelativeLayout>

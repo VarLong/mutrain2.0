@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/user_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dip"
+        android:layout_marginRight="8dip"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/details_picture" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp" >
+
+        <TextView
+            android:id="@+id/tourist_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginTop="5dp"
+            android:singleLine="true"
+            android:text="游客 20151217"
+            android:textColor="@color/tourist_name"
+            android:textSize="@dimen/textsize16" />
+
+        <TextView
+            android:id="@+id/comment_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/underline"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/tourist_name"
+            android:gravity="right"
+            android:minWidth="120dp"
+            android:singleLine="true"
+            android:textColor="@color/tourist_name"
+            android:textSize="@dimen/textsize14" />
+
+        <TextView
+            android:id="@+id/comment_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tourist_name"
+            android:layout_alignRight="@+id/comment_time"
+            android:layout_below="@+id/tourist_name"
+            android:layout_marginBottom="8dip"
+            android:layout_marginTop="7dip"
+            android:lineSpacingExtra="6dip"
+            android:text="等等我我也去看看" />
+
+        <View
+            android:id="@+id/underline"
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:layout_alignLeft="@+id/tourist_name"
+            android:layout_below="@+id/comment_content"
+            android:layout_marginRight="18dp"
+            android:background="#e3e7e3" />
+    </RelativeLayout>
+
+</LinearLayout>

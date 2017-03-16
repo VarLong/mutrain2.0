@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">U培训</string>
+    <string name="homepage">主页</string>
+    <string name="open_class">公开课</string>
+    <string name="class_train">培训班</string>
+    <string name="my">我的</string>
+    <string name="drawer_open">打开了</string>
+    <string name="drawer_close">关闭了</string>
+    <string name="descr_image">Image</string>
+    <string name="login">立即登录</string>
+    <string name="source">来源: </string>
+    <string name="click">点击: </string>
+    <string name="myopen">我的公开课</string>
+    <string name="mytrain">我的培训班</string>
+    <string name="mytest">我的考试</string>
+    <string name="myorder">我的预约</string>
+    <string name="mycollect">我的收藏</string>
+    <string name="myinteract">我的互动</string>
+    <string name="mycertificate">我的证书</string>
+    <string name="myset">设置</string>
+    <string name="hintname">请输入用户名/手机</string>
+    <string name="hintpassword">请输入密码</string>
+    <string name="forgetpsw">忘记密码?</string>
+    <string name="Login">登录</string>
+    <string name="GoRegister">没有账号? 去注册!</string>
+    <string name="introduction">简介</string>
+    <string name="teacher">讲师: </string>
+    <string name="recommend">相关推荐</string>
+    <string name="comment">评 论</string>
+    <string name="teadescription">讲师简介:</string>
+    <string name="studyform">学习形式:</string>
+    <string name="people">授课对象:</string>
+    <string name="certificate">颁发证书:</string>
+    <string name="hits">点击量:</string>
+    <string name="coursestime">课时:</string>
+    <string name="stars">星级:</string>
+    <string name="courseincome">课程收益:</string>
+    <string name="studytime">学时:</string>
+    <string name="remaintime">剩余时间:</string>
+    <string name="Systemcourseschedule">系统课程进度:</string>
+    <string name="backstudytime">上一次学习时间:</string>
+    <string name="studyschedule">学习进度:</string>
+    <string name="start_time">开始时间:</string>
+    <string name="attribute">属性:</string>
+    <string name="loadmore">点击加载更多</string>
+    <!-- 设置 -->
+    <string name="set_wifi">非Wifi网络播放</string>
+    <string name="set_suggestion">意见反馈</string>
+    <string name="set_check">检查更新</string>
+    <string name="set_clean">清除缓存</string>
+    <string name="set_about">关于U培训</string>
+    <string name="set_phone">联系方式：</string>
+    <string name="set_commit">提交</string>
+    <string name="set_num">/250</string>
+    <string name="set_one">亲，你有什么不爽的地方尽管吐槽吧！您的每一条意见我们都会认真解答尽快回复的呢</string>
+    <string name="set_two">请输入QQ/E-mail/以便我们回复哦~</string>
+    <!-- 清除缓存 -->
+    <string name="cache_title">清除缓存</string>
+    <string name="cache_content">您确定要清除系统缓存么？</string>
+    <string name="cache_ok">确定</string>
+    <string name="cache_no">取消</string>
+    <!-- 我的互动 -->
+    <string name="message_data">发表日期：</string>
+    <string name="score">评分：</string>
+</resources>

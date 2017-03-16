@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 搜索热门的listview每一个item背景色 -->
+    <item android:drawable="@color/white" android:state_pressed="true"></item>
+    <item android:drawable="@android:color/transparent" android:state_pressed="false"></item>
+
+</selector>

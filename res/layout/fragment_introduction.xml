@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white" 
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/tag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginTop="12dip"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/greentext" />
+
+            <TextView
+                android:id="@+id/people"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tag"
+                android:layout_below="@+id/tag"
+                android:layout_marginTop="12dp"
+                android:text="@string/people" />
+
+            <TextView
+                android:id="@+id/peopleTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/people"
+                android:layout_marginLeft="14dp"
+                android:layout_toRightOf="@+id/people" />
+
+            <TextView
+                android:id="@+id/certificate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tag"
+                android:layout_below="@+id/peopleTV"
+                android:layout_marginTop="12dp"
+                android:text="@string/certificate" />
+
+            <TextView
+                android:id="@+id/certificateTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/certificate"
+                android:layout_marginLeft="14dp"
+                android:layout_toRightOf="@+id/certificate" />
+
+            <TextView
+                android:id="@+id/source"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/people"
+                android:layout_below="@+id/certificate"
+                android:layout_marginTop="12dp"
+                android:text="@string/source" />
+
+            <TextView
+                android:id="@+id/sourceTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/source"
+                android:layout_marginLeft="14dp"
+                android:layout_toRightOf="@+id/source"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/hits"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/people"
+                android:layout_below="@+id/source"
+                android:layout_marginTop="12dp"
+                android:text="@string/hits" />
+
+            <TextView
+                android:id="@+id/hitsTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/hits"
+                android:layout_marginLeft="14dp"
+                android:layout_toRightOf="@+id/hits"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/coursestime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/people"
+                android:layout_below="@+id/hits"
+                android:layout_marginTop="12dp"
+                android:text="@string/coursestime" />
+
+            <TextView
+                android:id="@+id/coursestimeTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/coursestime"
+                android:layout_marginLeft="14dp"
+                android:layout_toRightOf="@+id/coursestime"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/stars"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/people"
+                android:layout_below="@+id/coursestime"
+                android:layout_marginTop="12dp"
+                android:text="@string/stars" />
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                style="@style/CustomRatbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/stars"
+                android:layout_marginLeft="14dp"
+                android:layout_toRightOf="@+id/stars"
+                android:isIndicator="true"
+                android:numStars="5"
+                android:rating="1.5" />
+
+            <View
+                android:id="@+id/underline"
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:layout_below="@+id/stars"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="12dp"
+                android:background="#e3e7e3" />
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/people"
+                android:layout_below="@+id/underline"
+                android:layout_marginTop="12dp"
+                android:text="@string/courseincome" />
+
+            <TextView
+                android:id="@+id/descriptionTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/description"
+                android:layout_marginLeft="14dp"
+                android:layout_marginBottom="12dp"
+                android:layout_toRightOf="@+id/description" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

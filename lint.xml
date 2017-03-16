@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="NewApi">
+        <ignore path="src/com/ytrain/mutrain/activity/my/MyCertificateActivity.java" />
+        <ignore path="src/com/ytrain/mutrain/activity/my/MyInteractActivity.java" />
+    </issue>
+    <issue id="ShowToast">
+        <ignore path="src/com/ssy/utils/Constants.java" />
+    </issue>
+</lint>

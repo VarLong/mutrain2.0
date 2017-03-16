@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="aphgreen">#DD259b24</color>
+    <!-- 透明绿色 -->
+    <color name="green">#259b24</color>
+    <!-- 绿色 -->
+    <color name="tab_normal">#333333</color>
+    <!-- huise -->
+    <color name="tab_bg">#e3fae1</color>
+    <!-- 白色 -->
+    <color name="black">#000000</color>
+    <!-- 黑色 -->
+    <color name="gray">#ecf2eb</color>
+    <color name="commentbg">#ebf1ea</color>
+    <!-- 黑色 -->
+    <color name="turquoise">#a3e9a4</color>
+    <!-- 青绿色 -->
+    <color name="yellow">#f9d40a</color>
+    <!-- 黄色 -->
+    <color name="Pale">#f6f6f6</color>
+    <!-- 红色 -->
+    <color name="red">#e40420</color>
+    <!-- 灰白 -->
+    <color name="greentext">#056f00</color>
+    <color name="orange">#FFA500</color>
+    <color name="gray_text">#686868</color>
+    <!-- 橙色 -->
+    <color name="orangered">#FF4500</color>
+    <!-- 红橙色 -->
+    <color name="wheat">#F5DEB3</color>
+    <!-- 浅黄色 -->
+    <color name="white">#FFFFFF</color>
+    <!-- 白色 -->
+    <color name="item_back_press">#10000000</color>
+    <color name="touming">#50259b24</color>
+    <color name="tourist_name">#7e7e7e</color>
+    <color name="line">#e3e6e5</color>
+    <!-- gray_backgrounegray -->
+    <color name="gray_background">#EAEAEA</color>
+    <color name="gray_textmain">#687468</color>
+
+</resources>
